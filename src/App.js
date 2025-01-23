@@ -38,10 +38,10 @@ function App() {
       {!isLoading && !error && <p className="quote">{advice.advice}</p>}
       {isLoading && <p className="quote">Loading...</p>}
       {error && <p className="quote">Oops! Something went wrong. Try again!</p>}
-      <img src="./images/pattern-divider-desktop.svg" className="desktop-image divider" />
-      <img src="./images/pattern-divider-mobile.svg" className="mobile-image divider" />
+      <img src="./images/pattern-divider-desktop.svg" className="desktop-image divider" alt="" />
+      <img src="./images/pattern-divider-mobile.svg" className="mobile-image divider" alt="" />
       <button className="dice" onClick={fetchAdvice}>
-        <img src="./images/icon-dice.svg" />
+        <img src="./images/icon-dice.svg" alt=""/>
       </button>
     </div>
   )
