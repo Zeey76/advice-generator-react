@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { useState, useEffect } from "react";
 
-function App() {
+const App = () => {
   const [advice, setAdvice] = useState({});
   const [isLoading, setLoading] = useState(false)
   const [error, setError] = useState(null)
